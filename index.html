@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>RE:CEIPT — 나의 건강보험 생애 영수증 (공모전 제안 시제품)</title>
+<meta name="description" content="오늘 태어난 아기의 첫해 병원비 5,485,956원, 결제한 사람은 우리 모두. 출생연도만 고르면 나의 건강보험 생애 영수증이 나옵니다.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="RE:CEIPT — 건강보험은 고지서가 아니라 영수증입니다">
+<meta property="og:description" content="오늘 태어난 아기의 첫해 병원비 5,485,956원. 결제한 사람: 우리 모두. 너의 RE:CEIPT는?">
+<meta property="og:image" content="https://best5218o-ux.github.io/re-ceipt-2026/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="600">
+<meta property="og:url" content="https://best5218o-ux.github.io/re-ceipt-2026/">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+:root{--ink:#14213d;--paper:#fbf8f1;--mint:#0f9d8a;--mint2:#d9f2ee;--coral:#ef5b4c;--gold:#f2b544;--gray:#6b7280;--line:#e5e1d6}
+*{box-sizing:border-box}
+body{word-break:keep-all;margin:0;font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;background:#f1efe9;color:var(--ink);line-height:1.55;padding-bottom:90px}
+.wrap{max-width:1080px;margin:0 auto;padding:20px 18px 40px}
+.notice{font-size:12px;color:var(--gray);text-align:center;margin-bottom:10px}
+header{background:var(--ink);color:#fff;border-radius:18px;padding:26px 26px;display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center}
+header .tag{display:inline-block;background:var(--coral);color:#fff;font-weight:700;font-size:12px;padding:3px 10px;border-radius:99px}
+header h1{font-size:32px;margin:10px 0 6px;line-height:1.25}
+header h1 b{color:#7ee0d2}
+header p{margin:0;color:#cfd6e6;font-size:15px}
+.hook{background:#1f2e52;border-radius:14px;padding:14px 18px;min-width:250px}
+.hook .q{font-size:14px;color:#cfd6e6}.hook .n{font-size:30px;font-weight:900;color:var(--gold)}.hook .p{font-size:14px;color:#7ee0d2;font-weight:700}.hook small{display:block;color:#9aa6c0;font-size:12px;margin-top:4px}
+@media(max-width:860px){header{grid-template-columns:1fr}header h1{font-size:25px}}
+.grid{display:grid;grid-template-columns:380px 1fr;gap:18px;margin-top:18px}
+@media(max-width:860px){.grid{grid-template-columns:1fr}}
+.card{background:#fff;border-radius:16px;padding:20px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+label{font-weight:700;font-size:14px}
+select,button{font:inherit}
+.row{display:flex;gap:8px;margin:8px 0 14px;flex-wrap:wrap}
+select{flex:1;padding:10px;border:1px solid var(--line);border-radius:10px;background:#fff;font-size:16px}
+.seg button{flex:1;padding:10px;border:1px solid var(--line);background:#fff;border-radius:10px;cursor:pointer}
+.seg button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.go{width:100%;padding:13px;border:0;border-radius:12px;background:var(--mint);color:#fff;font-weight:800;font-size:17px;cursor:pointer}
+.tabs{display:flex;gap:6px;margin-bottom:10px}
+.tabs button{flex:1;padding:9px;border-radius:10px;border:1px solid var(--ink);background:#fff;font-weight:700;cursor:pointer}
+.tabs button.on{background:var(--ink);color:#fff}
+.receipt{background:var(--paper);border-radius:6px;padding:22px 20px 18px;font-family:"D2Coding","Consolas","Malgun Gothic",monospace;border:1px dashed #cfc7b4}
+.receipt h3{text-align:center;margin:0 0 2px;font-size:20px;letter-spacing:2px}
+.receipt .sub{text-align:center;font-size:12px;color:var(--gray);margin-bottom:12px}
+.rl{display:flex;justify-content:space-between;gap:10px;font-size:14px;padding:4px 0}
+.rl.big{font-size:16px;font-weight:800}
+.rl .v{text-align:right;white-space:nowrap}
+.rl.note{font-size:12px;color:var(--gray);justify-content:center}
+.hr{border-top:2px dashed #cfc7b4;margin:10px 0}
+.receipt .foot{text-align:center;font-size:13px;margin-top:10px;font-weight:700;color:var(--mint)}
+.receipt .tiny{font-size:11px;color:var(--gray);text-align:center;margin-top:6px}
+.bar{height:10px;border-radius:5px;background:var(--mint2);margin:2px 0 6px;overflow:hidden}.bar i{display:block;height:100%;background:var(--mint)}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.kpi{background:var(--mint2);border-radius:12px;padding:12px}
+.kpi .n{font-size:22px;font-weight:900}
+.kpi .t{font-size:12px;color:#335}
+@media(max-width:560px){.kpis{grid-template-columns:1fr}}
+h2{font-size:18px;margin:4px 0 10px}
+.chart{width:100%;height:auto}
+.list{margin:0;padding:0;list-style:none}
+.list li{padding:10px 12px;border:1px solid var(--line);border-radius:10px;margin-bottom:8px;display:flex;gap:10px}
+.list li .ic{font-weight:900;color:var(--mint);min-width:22px}
+.list li small{display:block;color:var(--gray)}
+.btns{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.btns button{flex:1;padding:10px;border-radius:10px;border:1px solid var(--ink);background:#fff;cursor:pointer;font-weight:700}
+.msg{font-size:15px;background:#fff4f2;border-left:4px solid var(--coral);padding:10px 12px;border-radius:6px;margin-top:12px}
+.src{font-size:12px;color:var(--gray)}.src li{margin-bottom:4px}
+.ver{font-size:11px;color:var(--gray);text-align:right;margin-top:10px}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="notice">공모전 「건강보험을 RE:BOOM 하라!」 제안용 시제품 · 국민건강보험공단 공식 서비스 아님 · 개인정보를 받지 않고 저장하지 않습니다</div>
+<header>
+  <div>
+    <span class="tag">RE:CEIPT</span>
+    <h1>건강보험은 <b>고지서</b>가 아니라<br><b>영수증</b>입니다</h1>
+    <p>앞면은 내가 받은 건강, 뒷면은 내 보험료가 간 곳. 출생연도만 고르면 '평균적인 나'의 생애 건강보험 영수증이 나옵니다.</p>
+  </div>
+  <div class="hook">
+    <div class="q">오늘 태어난 아기의 첫해 병원비</div>
+    <div class="n">5,485,956원</div>
+    <div class="p">결제한 사람: 우리 모두</div>
+    <small>2013년 1,624,389원 → 2025년 3.4배 · HIRA 0세 1인당 진료비</small>
+  </div>
+</header>
+
+<div class="grid">
+  <div>
+    <div class="card">
+      <label for="yr">출생연도</label>
+      <div class="row"><select id="yr" aria-label="출생연도"></select></div>
+      <label>성별 <span style="font-weight:400;color:var(--gray);font-size:12px">(지금 받을 수 있는 검진 안내에만 씀)</span></label>
+      <div class="row seg" id="sex"><button data-v="F" class="on">여성</button><button data-v="M">남성</button></div>
+      <button class="go" id="go">내 생애 영수증 뽑기</button>
+    </div>
+    <div class="card" style="margin-top:14px">
+      <div class="tabs"><button id="tf" class="on">앞면 · 받은 것</button><button id="tb">뒷면 · 내 보험료가 간 곳</button></div>
+      <div class="receipt" id="rcpt" aria-live="polite">
+        <h3>RE:CEIPT</h3>
+        <div class="sub" id="rsub">나의 건강보험 생애 영수증 · 앞면</div>
+        <div id="rbody"></div>
+        <div class="hr"></div>
+        <div class="foot">받은 건강, 다시 BOOM.</div>
+        <div class="tiny" id="rtiny">2025년 진료비 단가로 환산한 평균 추정 · HIRA 2025 심사분</div>
+      </div>
+      <div class="btns"><button id="dl">영수증 이미지 저장</button><button id="share">공유하기</button></div>
+    </div>
+  </div>
+
+  <div>
+    <div class="card">
+      <div class="kpis">
+        <div class="kpi"><div class="n">549만원</div><div class="t">0세 1인당 연간 진료비(2025) — 2013년 162만원의 3.4배</div></div>
+        <div class="kpi"><div class="n" id="k2">–</div><div class="t">0세~지금까지 누적 진료비 · 오늘 단가 환산</div></div>
+        <div class="kpi"><div class="n" id="k3">–</div><div class="t" id="k3t">그중 건강보험 몫(추정)</div></div>
+      </div>
+      <div class="msg" id="msg"></div>
+    </div>
+    <div class="card" style="margin-top:14px">
+      <h2>나이별 1인당 연간 진료비 — 지금 나는 어디쯤?</h2>
+      <svg class="chart" id="chart" viewBox="0 0 640 300" role="img" aria-label="연령대별 1인당 연간 진료비 막대그래프"></svg>
+      <div class="src">자료: 건강보험심사평가원 HIRA빅데이터개방포털 「연령별 건강보험 적용대상자 1인당 진료현황」(2025년 심사분, 공공누리 제1유형). 요양급여비용 기준(비급여·전액본인부담 제외).</div>
+    </div>
+    <div class="card" style="margin-top:14px">
+      <h2 id="nowT">지금 내가 쓸 수 있는 건강보험</h2>
+      <ul class="list" id="now"></ul>
+    </div>
+  </div>
+</div>
+
+<div class="card" style="margin-top:18px">
+  <h2>계산 방법과 출처</h2>
+  <ul class="src">
+    <li>앞면 누적 진료비 = 0세부터 현재 나이까지 각 나이의 「1인당 연간 진료비」(HIRA 2025 심사분, 5세 구간 값을 그 구간 모든 나이에 적용)를 더한 값. <b>2025년 단가로 환산한 '평균적인 나'의 추정치</b>이며 실제 당시 진료비는 이보다 낮습니다(0세 기준 2013년 1,624,389원 → 2025년 5,485,956원).</li>
+    <li>건강보험 몫(추정) = 누적 진료비 × 75.3%(2024 건강보험통계연보: 급여비 87조5,774억 원 ÷ 진료비 116조2,375억 원). 연도 기준이 섞인 보수적 추정입니다.</li>
+    <li>1989년 이전 출생자는 어린 시절 전 국민 건강보험이 없었습니다(1977.7.1 도입 · 1989.7.1 전 국민). 이분들의 앞면은 '오늘 태어났다면'의 환산이며 실제 이력이 아닙니다.</li>
+    <li>뒷면 = HIRA 2025 심사분 연령대별 요양급여비용 비중(총 124조4,578억 원)을 1만 원으로 환산. 보험료와 국고로 함께 결제됩니다.</li>
+    <li>생애주기: 국민건강보험공단 「2019년 보험료 부담 대비 급여비 현황 분석」 — 0~22세는 급여가 보험료보다 많고, 22~57세는 보험료가 급여보다 많음.</li>
+    <li>검진: 2019년부터 20~30대 피부양자·지역 세대원까지 국가건강검진 확대, 2025년부터 20~34세 정신건강검사 2년 주기, 이상지질혈증 검사 남 24세·여 40세 이상 4년 주기.</li>
+  </ul>
+  <div class="ver">RE:CEIPT 시제품 v2 · 2026-11-17 · 팀 브랜드 AI</div>
+</div>
+</div>
+
+<script>
+const BANDS=[[0,0,5485956,"0세"],[1,4,1758408,"1~4"],[5,9,1291113,"5~9"],[10,14,933368,"10~14"],[15,19,815178,"15~19"],[20,24,820365,"20~24"],[25,29,967177,"25~29"],[30,34,1279006,"30~34"],[35,39,1439468,"35~39"],[40,44,1534457,"40~44"],[45,49,1660284,"45~49"],[50,54,2029105,"50~54"],[55,59,2366122,"55~59"],[60,64,3113030,"60~64"],[65,69,4127892,"65~69"],[70,74,4985815,"70~74"],[75,79,6177702,"75~79"],[80,84,7372335,"80~84"],[85,89,7825693,"85+"]];
+const BACK=[["0~9세 아이",433],["10대",323],["20~30대",1208],["40~64세",3538],["65세 이상 어르신",4498]];
+const RATIO=0.7534, BASE=2026, URL0='https://best5218o-ux.github.io/re-ceipt-2026/';
+const per=a=>{for(const b of BANDS){if(a>=b[0]&&a<=b[1])return b[2]}return BANDS[BANDS.length-1][2]};
+const cum=n=>{let s=0;for(let a=0;a<=n;a++)s+=per(a);return s};
+const won=v=>Math.round(v).toLocaleString('ko-KR')+'원';
+const eok=v=>{const m=Math.round(v/10000);return m>=10000?(Math.floor(m/10000)+'억 '+(m%10000).toLocaleString('ko-KR')+'만원'):(m.toLocaleString('ko-KR')+'만원')};
+const yr=document.getElementById('yr');
+for(let y=BASE-10;y>=BASE-85;y--){const o=document.createElement('option');o.value=y;o.textContent=y+'년생 (만 '+(BASE-y)+'세 안팎)';yr.appendChild(o)}
+const qs=new URLSearchParams(location.search);
+yr.value=(qs.get('y')&&+qs.get('y')>=BASE-85&&+qs.get('y')<=BASE-10)?qs.get('y'):2000;
+let sex=qs.get('s')==='M'?'M':'F', side='F', last=null;
+const sexBtns=document.querySelectorAll('#sex button');
+const setSex=v=>{sex=v;sexBtns.forEach(x=>x.classList.toggle('on',x.dataset.v===v))};
+setSex(sex);
+sexBtns.forEach(b=>b.onclick=()=>{setSex(b.dataset.v);run()});
+yr.onchange=run;
+document.getElementById('tf').onclick=()=>{side='F';run()};
+document.getElementById('tb').onclick=()=>{side='B';run()};
+
+function benefits(age,s){
+  const L=[];
+  if(age<20) L.push(['만 20세부터 국가 일반건강검진','2년마다 1회(출생연도 짝·홀 기준)']);
+  if(age>=20) L.push(['국가 일반건강검진','2년마다 1회(출생연도 짝·홀 기준). 피부양자·지역 세대원도 대상(2019~)']);
+  if(age>=20&&age<=34) L.push(['정신건강검사(우울증·조기정신증)','20~34세는 일반검진 때마다 2년 주기(2025~)']);
+  if(s==='F'&&age>=20) L.push(['자궁경부암 검진','20세 이상 여성 2년마다']);
+  if((s==='M'&&age>=24)||(s==='F'&&age>=40)) L.push(['이상지질혈증 검사',(s==='M'?'남성 24세':'여성 40세')+' 이상 4년 주기']);
+  if(age>=40) L.push(['국가 암검진','연령·암종별 대상(위·대장·유방·간 등)']);
+  L.push(['미지급 환급금·본인부담상한제','The건강보험 앱에서 내 환급금 확인']);
+  return L;
+}
+function chart(age){
+  const svg=document.getElementById('chart');const W=640,H=300,p={l:52,r:10,t:22,b:44};const narrow=svg.getBoundingClientRect().width<560;
+  const fs=narrow?18:11, show=i=>!narrow||[0,5,9,13,18].includes(i);
+  const max=8000000;const bw=(W-p.l-p.r)/BANDS.length;let h='';
+  for(let i=0;i<=4;i+=narrow?2:1){const v=max*i/4;const y=H-p.b-(H-p.t-p.b)*i/4;h+=`<line x1="${p.l}" x2="${W-p.r}" y1="${y}" y2="${y}" stroke="#eee"/><text x="${p.l-6}" y="${y+5}" font-size="${fs}" text-anchor="end" fill="#6b7280">${v/10000}만</text>`}
+  BANDS.forEach((b,i)=>{const x=p.l+i*bw+3;const bh=(H-p.t-p.b)*b[2]/max;const y=H-p.b-bh;const on=(age>=b[0]&&age<=b[1])||(i===BANDS.length-1&&age>=85);const past=age>b[1];
+    h+=`<rect x="${x}" y="${y}" width="${bw-6}" height="${bh}" rx="3" fill="${on?'#ef5b4c':past?'#0f9d8a':'#c9d3e6'}"/>`;
+    if(show(i))h+=`<text x="${x+(bw-6)/2}" y="${H-p.b+(narrow?24:14)}" font-size="${narrow?16:10}" text-anchor="middle" fill="#334" ${narrow?'':`transform="rotate(-35 ${x+(bw-6)/2} ${H-p.b+14})"`}>${b[3]}</text>`;
+    if(on)h+=`<text x="${x+(bw-6)/2}" y="${y-6}" font-size="${narrow?18:12}" font-weight="800" text-anchor="middle" fill="#ef5b4c">지금 나</text>`});
+  if(!narrow)h+=`<rect x="${W-200}" y="4" width="10" height="10" fill="#0f9d8a"/><text x="${W-186}" y="13" font-size="11">이미 지나온 나이</text><rect x="${W-100}" y="4" width="10" height="10" fill="#c9d3e6"/><text x="${W-86}" y="13" font-size="11">앞으로</text>`;
+  svg.innerHTML=h;
+}
+function run(){
+  const y=+yr.value, age=BASE-y, pre=y<1989, c=cum(age), ins=c*RATIO, a22=Math.min(age,22);
+  last={y,age,c,ins,pre};
+  history.replaceState(null,'',`?y=${y}&s=${sex}`);
+  document.getElementById('k2').textContent=eok(c);
+  document.getElementById('k3').textContent=eok(ins);document.getElementById('k3t').textContent=pre?'그중 건강보험 몫(환산 · 실제 이력 아님)':'그중 건강보험 몫(추정)';
+  let m;
+  if(age<=22) m=`만 ${age}세인 당신은 지금 <b>받는 시기</b>입니다. 오늘 단가로 환산하면 지금까지의 병원비 중 약 <b>${eok(ins)}</b>을(를) 일하는 세대의 보험료와 국고가 함께 냈습니다.`;
+  else if(!pre) m=`오늘 단가로 환산하면, 0~22세 동안 건강보험이 '평균적인 나'에게 낸 몫은 약 <b>${eok(cum(22)*RATIO)}</b>. 지금 당신은 <b>내는 시기</b>입니다 — 뒷면을 눌러 내 보험료가 누구의 병원비가 되는지 보세요.`;
+  else m=`${y}년에는 아직 <b>전 국민 건강보험이 없었습니다</b>(1977년 도입 · 1989년 전 국민). 오늘 태어난 아기는 첫해 병원비 <b>549만원</b>을 건강보험과 함께 시작합니다. 그 출발을 만든 것이 지금 우리의 보험료입니다.`;
+  document.getElementById('msg').innerHTML=m;
+  document.getElementById('tf').classList.toggle('on',side==='F');document.getElementById('tb').classList.toggle('on',side==='B');
+  const rb=document.getElementById('rbody');
+  if(side==='F'){
+    document.getElementById('rsub').textContent='나의 건강보험 생애 영수증 · 앞면(받은 것)';
+    document.getElementById('rtiny').textContent='2025년 진료비 단가로 환산한 평균 추정 · HIRA 2025 심사분';
+    let h=`<div class="rl"><span>발행</span><span class="v">${y}년생 · 만 ${age}세</span></div><div class="hr"></div>
+    <div class="rl"><span>기준</span><span class="v">2025년 단가 환산</span></div>
+    <div class="rl"><span>0세 첫해 진료비</span><span class="v">${won(per(0))}</span></div>`;
+    if(age>22) h+=`<div class="rl"><span>0~22세 누적 진료비</span><span class="v">${won(cum(22))}</span></div>`;
+    h+=`<div class="rl"><span>0~${age}세 누적 진료비</span><span class="v">${won(c)}</span></div><div class="hr"></div>
+    <div class="rl big"><span>${pre?'건강보험 몫(환산)':'건강보험 결제(추정)'}</span><span class="v">${won(ins)}</span></div>`;
+    if(pre) h+=`<div class="rl note"><span>※ 오늘 태어났다면의 환산 · 실제 이력 아님</span></div>`;
+    h+=`<div class="rl"><span>결제한 사람</span><span class="v">우리 모두(보험료·국고)</span></div>`;
+    rb.innerHTML=h;
+  } else {
+    document.getElementById('rsub').textContent='나의 건강보험 생애 영수증 · 뒷면(내 보험료가 간 곳)';
+    document.getElementById('rtiny').textContent='HIRA 2025 심사분 연령대별 요양급여비용 비중 · 1만 원 환산';
+    let h=`<div class="rl"><span>내 보험료 1만 원이</span><span class="v">쓰인 곳(연간 비중)</span></div><div class="hr"></div>`;
+    BACK.forEach(b=>{h+=`<div class="rl"><span>${b[0]}</span><span class="v">${b[1].toLocaleString('ko-KR')}원</span></div><div class="bar"><i style="width:${b[1]/45}%"></i></div>`});
+    h+=`<div class="hr"></div><div class="rl big"><span>합계</span><span class="v">10,000원</span></div><div class="rl"><span>받은 사람</span><span class="v">오늘의 아이와 어르신, 그리고 나</span></div>`;
+    rb.innerHTML=h;
+  }
+  const ul=document.getElementById('now');ul.innerHTML='';
+  benefits(age,sex).forEach((x,i)=>{const li=document.createElement('li');li.innerHTML=`<span class="ic">${i+1}</span><div><b>${x[0]}</b><small>${x[1]}</small></div>`;ul.appendChild(li)});
+  document.getElementById('nowT').textContent=`만 ${age}세 ${sex==='F'?'여성':'남성'}이 지금 쓸 수 있는 건강보험`;
+  chart(age);
+}
+document.getElementById('go').onclick=run;
+window.addEventListener('resize',()=>last&&chart(last.age));
+const QR=new Image();QR.src='qr.png';
+function toPNG(){
+  run();const {y,age,c,ins,pre}=last;
+  const cv=document.createElement('canvas');cv.width=720;cv.height=1180;const g=cv.getContext('2d');
+  g.fillStyle='#fbf8f1';g.fillRect(0,0,720,1180);
+  const line=yy=>{g.setLineDash([10,8]);g.strokeStyle='#cfc7b4';g.lineWidth=3;g.beginPath();g.moveTo(50,yy);g.lineTo(670,yy);g.stroke();g.setLineDash([])};
+  const row=(l,v,yy,b)=>{g.textAlign='left';g.fillStyle='#14213d';g.font=(b?'bold 32px':'27px')+' sans-serif';g.fillText(l,60,yy);g.textAlign='right';g.fillText(v,660,yy)};
+  g.fillStyle='#14213d';g.textAlign='center';g.font='bold 54px sans-serif';g.fillText('RE:CEIPT',360,100);
+  g.font='25px sans-serif';g.fillStyle='#6b7280';g.fillText(side==='F'?'나의 건강보험 생애 영수증 · 앞면':'나의 건강보험 생애 영수증 · 뒷면',360,142);
+  line(172);row('발행',`${y}년생 · 만 ${age}세`,228);
+  let yy;
+  if(side==='F'){
+    g.fillStyle='#6b7280';g.font='20px sans-serif';g.textAlign='center';g.fillText('2025년 진료비 단가로 환산한 평균 추정',360,262);line(285);
+    row('0세 첫해 진료비',won(per(0)),340);yy=395;
+    if(age>22){row('0~22세 누적',won(cum(22)),yy);yy+=55}
+    row(`0~${age}세 누적`,won(c),yy);yy+=45;line(yy);yy+=65;
+    row(pre?'건강보험 몫(환산)':'건강보험 결제(추정)',won(ins),yy,true);yy+=45;
+    if(pre){g.fillStyle='#6b7280';g.font='20px sans-serif';g.textAlign='center';g.fillText('※ 오늘 태어났다면의 환산 · 실제 이력 아님',360,yy);yy+=40}
+    row('결제한 사람','우리 모두(보험료·국고)',yy);yy+=40;
+  } else {
+    line(262);row('내 보험료 1만 원이','쓰인 곳(연간 비중)',315);yy=370;
+    BACK.forEach(b=>{row(b[0],b[1].toLocaleString('ko-KR')+'원',yy);g.fillStyle='#d9f2ee';g.fillRect(60,yy+12,600,12);g.fillStyle='#0f9d8a';g.fillRect(60,yy+12,600*b[1]/4500,12);yy+=62});
+    line(yy);yy+=55;row('합계','10,000원',yy,true);yy+=40;
+  }
+  line(yy);yy+=70;
+  g.textAlign='center';g.fillStyle='#0f9d8a';g.font='bold 40px sans-serif';g.fillText('받은 건강, 다시 BOOM.',360,yy);yy+=55;
+  g.fillStyle='#14213d';g.font='24px sans-serif';g.fillText('내 보험료는 오늘의 아이와 어르신의 병원비로 이어집니다',360,yy);
+  const q=yy+45;
+  if(QR.complete&&QR.naturalWidth)g.drawImage(QR,60,q,130,130);
+  g.textAlign='left';g.fillStyle='#14213d';g.font='bold 26px sans-serif';g.fillText('너의 RE:CEIPT는?',215,q+45);
+  g.font='22px sans-serif';g.fillStyle='#0f9d8a';g.fillText('best5218o-ux.github.io/re-ceipt-2026',215,q+82);
+  g.fillStyle='#6b7280';g.font='17px sans-serif';g.fillText('HIRA 2025 심사분 · 공모전 제안 시제품 · 공단 공식 서비스 아님',215,q+115);
+  const out=document.createElement('canvas');out.width=720;out.height=q+170;out.getContext('2d').drawImage(cv,0,0);
+  return out;
+}
+document.getElementById('dl').onclick=()=>{const cv=toPNG();const a=document.createElement('a');a.download='RECEIPT_'+last.y+(side==='F'?'_front':'_back')+'.png';a.href=cv.toDataURL('image/png');a.click()};
+document.getElementById('share').onclick=async()=>{run();const u=`${URL0}?y=${last.y}&s=${sex}`;
+  const t=last.pre?`오늘 기준으로 환산한 '평균적인 나'의 생애 영수증은 약 ${eok(last.ins)}. 너의 RE:CEIPT는?`:`오늘 단가로 환산하면 건강보험이 나에게 낸 몫은 약 ${eok(last.ins)}. 결제한 사람: 우리 모두. 너의 RE:CEIPT는?`;
+  try{if(navigator.share){await navigator.share({title:'RE:CEIPT',text:t,url:u});return}}catch(e){}
+  try{await navigator.clipboard.writeText(t+' '+u);alert('공유 문구를 복사했습니다')}catch(e){prompt('아래 문구를 복사하세요',t+' '+u)}};
+run();
+</script>
+</body>
+</html>
